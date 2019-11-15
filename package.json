@@ -30,7 +30,7 @@
     "prebuild": "./bin/build.js",
     "build": "babel src --out-dir dist",
     "update": "ncu -u tailwindcss",
-    "prepublish": "npm run update && npm run prebuild",
+    "prepublish": "npm run update && npm run build",
     "postversion": "git push origin master --tags && npm publish"
   },
   "devDependencies": {
