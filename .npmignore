@@ -1,2 +1,3 @@
 .github
+.idea
 bin/build.js
