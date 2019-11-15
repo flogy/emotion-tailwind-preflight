@@ -14,11 +14,7 @@
     "tailwindcss",
     "preflight",
     "normalize",
-    "css",
-    "css-in-js",
-    "styles",
-    "import",
-    "components"
+    "css-in-js"
   ],
   "author": "Florian Gyger Software <info@floriangyger.ch>",
   "license": "MIT",

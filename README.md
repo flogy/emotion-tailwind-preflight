@@ -1,8 +1,13 @@
 # emotion-tailwind-preflight
 
-Preflight file as used in [TailwindCSS base styles](https://tailwindcss.com/docs/adding-base-styles) for [Emotion](https://github.com/emotion-js/emotion) CSS-in-JS library.
+**💎 Merge the shiny TailwindCSS base styles into your CSS-in-JS project!**
 
-The original CSS is pulled from [TailwindCSS library](https://tailwindcss.com/), and parsed into emotion ready format.
+You like the [base styles](https://tailwindcss.com/docs/adding-base-styles) from [TailwindCSS library](https://tailwindcss.com/)? But you also want to use the [Emotion](https://github.com/emotion-js/emotion) CSS-in-JS library? Then this library is for you.
+
+The *emotion-tailwind-preflight* library contains the latest base styles from TailwindCSS, which they call **Preflight**.
+
+The Preflight CSS is pulled from [TailwindCSS library](https://tailwindcss.com/) and parsed into emotion ready format.
+
 
 ## Usage
 
@@ -14,7 +19,7 @@ npm install --save emotion-tailwind-preflight
 
 ```js
 import { Global, css } from "@emotion/core";
-import emotionTailwindPreflight from 'emotion-tailwind-preflight';
+import emotionTailwindPreflight from "emotion-tailwind-preflight";
 
 // ...
 
@@ -33,12 +38,14 @@ import emotionTailwindPreflight from 'emotion-tailwind-preflight';
 />
 ```
 
+
 ## License
 
 The [MIT License](LICENSE)
 
+
 ## Credits
 
-emotion-tailwind-preflight is maintained and sponsored by the Swiss web and mobile app development company [Florian Gyger Software](https://floriangyger.ch).
+The *emotion-tailwind-preflight* library is maintained and sponsored by the Swiss web and mobile app development company [Florian Gyger Software](https://floriangyger.ch).
 
 Special thanks to [Infinum](https://infinum.co), the original creator of the quite similar library [emotion-normalize](https://github.com/infinum/emotion-normalize) on which this library is based on.
