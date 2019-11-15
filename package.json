@@ -1,28 +1,31 @@
 {
-  "name": "emotion-normalize",
-  "version": "10.1.0",
-  "description": "Normalize file for emotion JSS library",
+  "name": "emotion-tailwind-preflight",
+  "version": "0.0.1",
+  "description": "TailwindCSS Preflight file for emotion CSS-in-JS library",
   "main": "dist/index.js",
   "typings": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/infinum/emotion-normalize.git"
+    "url": "git+https://github.com/flogy/emotion-tailwind-preflight.git"
   },
   "keywords": [
     "emotion",
+    "tailwind",
+    "tailwindcss",
+    "preflight",
     "normalize",
-    "jss",
     "css",
+    "css-in-js",
     "styles",
     "import",
     "components"
   ],
-  "author": "Infinum JavaScript Team <hello@infinum.co>",
+  "author": "Florian Gyger Software <info@floriangyger.ch>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/infinum/emotion-normalize/issues"
+    "url": "https://github.com/flogy/emotion-tailwind-preflight/issues"
   },
-  "homepage": "https://github.com/infinum/emotion-normalize#readme",
+  "homepage": "https://github.com/flogy/emotion-tailwind-preflight#readme",
   "scripts": {
     "prebuild": "./bin/build.js",
     "build": "babel src --out-dir dist",
