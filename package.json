@@ -1,6 +1,6 @@
 {
   "name": "emotion-tailwind-preflight",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TailwindCSS Preflight file for emotion CSS-in-JS library",
   "main": "dist/index.js",
   "typings": "index.d.ts",
