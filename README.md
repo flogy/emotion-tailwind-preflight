@@ -1,26 +1,26 @@
-# emotion-normalize
+# emotion-tailwind-preflight
 
-Normalize file for [Emotion](https://github.com/emotion-js/emotion) CSS-in-JS library.
+Preflight file as used in [TailwindCSS base styles](https://tailwindcss.com/docs/adding-base-styles) for [Emotion](https://github.com/emotion-js/emotion) CSS-in-JS library.
 
-The original `normalize.css` is pulled from [necolas/normalize.css](https://github.com/necolas/normalize.css), and parsed into emotion ready format.
+The original CSS is pulled from [TailwindCSS library](https://tailwindcss.com/), and parsed into emotion ready format.
 
 ## Usage
 
 ```sh
-npm install --save emotion-normalize
+npm install --save emotion-tailwind-preflight
 ```
 
 ### JavaScript
 
 ```js
 import { Global, css } from "@emotion/core";
-import emotionNormalize from 'emotion-normalize';
+import emotionTailwindPreflight from 'emotion-tailwind-preflight';
 
 // ...
 
 <Global
   styles={css`
-    ${emotionNormalize}
+    ${emotionTailwindPreflight}
     html,
     body {
       padding: 0;
@@ -39,7 +39,6 @@ The [MIT License](LICENSE)
 
 ## Credits
 
-emotion-normalize is maintained and sponsored by
-[Infinum](http://www.infinum.co).
+emotion-tailwind-preflight is maintained and sponsored by the Swiss web and mobile app development company [Florian Gyger Software](https://floriangyger.ch).
 
-<img src="https://infinum.co/infinum.png" width="264">
+Special thanks to [Infinum](https://infinum.co), the original creator of the quite similar library [emotion-normalize](https://github.com/infinum/emotion-normalize) on which this library is based on.
