@@ -8,12 +8,15 @@ The *emotion-tailwind-preflight* library contains the latest base styles from Ta
 
 The Preflight CSS is pulled from [TailwindCSS library](https://tailwindcss.com/) and parsed into emotion ready format.
 
+[![npm](https://img.shields.io/npm/v/emotion-tailwind-preflight)](https://www.npmjs.com/package/emotion-tailwind-preflight)
+[![GitHub license](https://img.shields.io/github/license/flogy/emotion-tailwind-preflight)](https://github.com/flogy/emotion-tailwind-preflight/blob/master/LICENSE)
 
 ## Usage
 
 ```sh
 npm install --save emotion-tailwind-preflight
 ```
+
 
 ### JavaScript
 
@@ -37,6 +40,11 @@ import emotionTailwindPreflight from "emotion-tailwind-preflight";
   `}
 />
 ```
+
+
+## What do the base styles do
+
+The TailwindCSS base styles are an opinionated set of CSS styles to smooth over cross-browser inconsistencies. They for example remove all default margins. Check out the [TailwindCSS documentation](https://tailwindcss.com/docs/preflight/) to see all detailed configurations.
 
 
 ## License
