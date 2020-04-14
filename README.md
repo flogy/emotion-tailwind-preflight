@@ -10,6 +10,7 @@ The Preflight CSS is pulled from [TailwindCSS library](https://tailwindcss.com/)
 
 [![npm](https://img.shields.io/npm/v/emotion-tailwind-preflight)](https://www.npmjs.com/package/emotion-tailwind-preflight)
 [![GitHub license](https://img.shields.io/github/license/flogy/emotion-tailwind-preflight)](https://github.com/flogy/emotion-tailwind-preflight/blob/master/LICENSE)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/flogy/emotion-tailwind-preflight)
 
 ## Usage
 
