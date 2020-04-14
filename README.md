@@ -48,6 +48,20 @@ import emotionTailwindPreflight from "emotion-tailwind-preflight";
 The TailwindCSS base styles are an opinionated set of CSS styles to smooth over cross-browser inconsistencies. They for example remove all default margins. Check out the [TailwindCSS documentation](https://tailwindcss.com/docs/preflight/) to see all detailed configurations.
 
 
+## Development
+
+### Gitpod
+
+This repository supports the online IDE [Gitpod](https://gitpod.io/).
+
+
+### Migrate to the latest Tailwind CSS base styles
+
+Running `npm run update` will update to the latest Tailwind CSS version and copy the base styles to the `./src/index.js` file.
+
+After that, a new build can be created using `npm run build` and released.
+
+
 ## License
 
 The [MIT License](LICENSE)

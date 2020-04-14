@@ -23,10 +23,9 @@
   },
   "homepage": "https://github.com/flogy/emotion-tailwind-preflight#readme",
   "scripts": {
-    "prebuild": "./bin/build.js",
+    "update": "ncu -u tailwindcss && ./bin/build.js",
     "build": "babel src --out-dir dist",
-    "update": "ncu -u tailwindcss",
-    "prepublish": "npm run update && npm run build",
+    "prepublishOnly": "npm run build",
     "postversion": "git push origin master --tags && npm publish"
   },
   "devDependencies": {
