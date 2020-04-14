@@ -148,15 +148,6 @@ template {
 [hidden] {
   display: none;
 }
-html {
-  box-sizing: border-box; 
-  font-family: sans-serif; 
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
 blockquote,
 dl,
 dd,
@@ -173,7 +164,8 @@ pre {
   margin: 0;
 }
 button {
-  background: transparent;
+  background-color: transparent;
+  background-image: none;
   padding: 0;
 }
 button:focus {
@@ -191,15 +183,16 @@ ul {
   padding: 0;
 }
 html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
   line-height: 1.5; 
 }
 *,
-*::before,
-*::after {
-  border-width: 0;
-  border-style: solid;
-  border-color: #e2e8f0;
+::before,
+::after {
+  box-sizing: border-box; 
+  border-width: 0; 
+  border-style: solid; 
+  border-color: #e2e8f0; 
 }
 hr {
   border-top-width: 1px;
