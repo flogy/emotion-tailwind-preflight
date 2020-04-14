@@ -30,12 +30,12 @@
     "postversion": "git push origin master --tags && npm publish"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.0",
-    "@babel/core": "^7.5.0",
-    "@babel/preset-env": "^7.5.0",
-    "@emotion/core": ">=10.0.0",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@emotion/core": "^10.0.28",
     "auto-changelog": "^2.0.0",
-    "npm-check-updates": "^3.1.16",
+    "npm-check-updates": "^4.1.2",
     "tailwindcss": "^1.2.0"
   },
   "peerDependencies": {
