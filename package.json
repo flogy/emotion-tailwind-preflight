@@ -36,7 +36,7 @@
     "@emotion/core": "^10.0.28",
     "auto-changelog": "^2.0.0",
     "npm-check-updates": "^4.1.2",
-    "tailwindcss": "^1.6.0"
+    "tailwindcss": "^1.8.10"
   },
   "peerDependencies": {
     "@emotion/core": ">=10.0.0",

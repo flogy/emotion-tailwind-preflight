@@ -166,7 +166,6 @@ pre {
 button {
   background-color: transparent;
   background-image: none;
-  padding: 0;
 }
 button:focus {
   outline: 1px dotted;
