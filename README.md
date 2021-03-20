@@ -22,7 +22,7 @@ npm install --save emotion-tailwind-preflight
 ### JavaScript
 
 ```js
-import { Global, css } from "@emotion/core";
+import { Global, css } from "@emotion/react";
 import emotionTailwindPreflight from "emotion-tailwind-preflight";
 
 // ...
