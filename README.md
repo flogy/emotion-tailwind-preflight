@@ -69,7 +69,7 @@ The [MIT License](LICENSE)
 
 ## Credits
 
-The *emotion-tailwind-preflight* library is maintained and sponsored by the Swiss web and mobile app development company [Florian Gyger Software](https://floriangyger.ch).
+The *emotion-tailwind-preflight* library is maintained and sponsored by the Swiss web and mobile app development company [Florian Gyger Software GmbH](https://floriangyger.ch).
 
 Special thanks to [Infinum](https://infinum.co), the original creator of the quite similar library [emotion-normalize](https://github.com/infinum/emotion-normalize) on which this library is based on.
 
