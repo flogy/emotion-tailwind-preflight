@@ -16,7 +16,7 @@
     "normalize",
     "css-in-js"
   ],
-  "author": "Florian Gyger Software <info@floriangyger.ch>",
+  "author": "Florian Gyger Software GmbH <info@floriangyger.ch>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/flogy/emotion-tailwind-preflight/issues"
